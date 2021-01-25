@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       @@include("./_head.html", {
+           "path": ".",
+           "title": "Bootstrap 5 Gulp Template"
+       })
+
+    </head>
+    <body>
+        <!-- MAIN PAGE SECTION -->
+        <main>
+            <section class="vh-100 d-flex align-items-center justify-content-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center d-flex align-items-center justify-content-center">
+                            <div>
+                                <h1 class="mt-5">Welcome to <span class="font-weight-bolder text-primary"> Bootstrap 5 Gulp Starter Template</span></h1>
+                                <p class="lead my-4">Nothing here, just you starting off with a simple hello.</p>
+                                <a class="btn btn-primary" href="#">Button</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- MAIN PAGE SECTION -->       
+       
+            
+<!-- SCRIPTS  -->
+       @@include('./_scripts.html', {
+           "path":"."
+       })
+    </body>
+</html>
